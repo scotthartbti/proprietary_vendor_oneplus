@@ -248,7 +248,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_ov5648.so:/system/vendor/lib/libmmcamera_ov5648.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_ov5648_eeprom.so:/system/vendor/lib/libmmcamera_ov5648_eeprom.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libwvdrm_L3.so:/system/vendor/lib/libwvdrm_L3.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libalarmservice_jni.so:/system/vendor/lib/libalarmservice_jni.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
@@ -261,7 +261,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libxtadapter.so:/system/vendor/lib/libxtadapter.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:/system/vendor/lib/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:/system/vendor/lib/libxtwifi_zpp_adaptor.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
