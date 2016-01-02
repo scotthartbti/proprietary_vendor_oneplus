@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/loc_launcher:/system/bin/loc_launcher \
         vendor/oneplus/oneplus2/proprietary/bin/lowi-server:/system/bin/lowi-server \
         vendor/oneplus/oneplus2/proprietary/bin/quipc_igsn:/system/bin/quipc_igsn \
-        vendor/oneplus/oneplus2/proprietary/bin/sensors.qcom:/system/bin/quipc_igsn \
         vendor/oneplus/oneplus2/proprietary/bin/xtwifi-inet-agent:/system/bin/xtwifi-inet-agent \
         vendor/oneplus/oneplus2/proprietary/bin/location-mq:/system/bin/location-mq \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/a420_pfp.fw:/system/etc/firmware/a420_pfp.fw \
