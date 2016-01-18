@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/oneplus/oneplus2/proprietary/bin/energy-awareness:/system/bin/energy-awareness \
         vendor/oneplus/oneplus2/proprietary/bin/msm_irqbalance:/system/bin/msm_irqbalance \
-        vendor/oneplus/oneplus2/proprietary/bin/perfd:/system/bin/perfd \
         vendor/oneplus/oneplus2/proprietary/bin/pm-proxy:/system/bin/pm-proxy \
         vendor/oneplus/oneplus2/proprietary/bin/pm-service:/system/bin/pm-service \
         vendor/oneplus/oneplus2/proprietary/bin/irsc_util:/system/bin/irsc_util \
@@ -91,6 +90,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/lights.msm8994.so:/system/lib64/hw/lights.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/libparam.so:/system/lib64/libparam.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/slim_ap_daemon:/system/vendor/bin/slim_ap_daemon \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/thermal-engine:/system/vendor/bin/thermal-engine \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
