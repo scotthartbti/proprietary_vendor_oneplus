@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libbtnv.so:/system/vendor/lib/libbtnv.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libflash_pmic.so:/system/vendor/lib/libflash_pmic.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libimage_stability.so:/system/vendor/lib/libimage_stability.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libjpegdmahw.so:/system/vendor/lib/libjpegdmahw.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
