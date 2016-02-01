@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/btnvtool:/system/bin/btnvtool \
         vendor/oneplus/oneplus2/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/oneplus/oneplus2/proprietary/bin/wcnss_filter:/system/bin/wcnss_filter \
+        vendor/oneplus/oneplus2/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/oneplus/oneplus2/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/oneplus/oneplus2/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/oneplus/oneplus2/proprietary/bin/energy-awareness:/system/bin/energy-awareness \
@@ -122,7 +123,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libbtnv.so:/system/vendor/lib/libbtnv.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libflash_pmic.so:/system/vendor/lib/libflash_pmic.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libimage_stability.so:/system/vendor/lib/libimage_stability.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libjpegdmahw.so:/system/vendor/lib/libjpegdmahw.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
@@ -390,3 +390,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libasn1crtx.so:/system/vendor/lib64/libasn1crtx.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libgdtap.so:/system/vendor/lib64/libgdtap.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libquipc_ulp_adapter.so:/system/vendor/lib64/libquipc_ulp_adapter.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libDivxDrm.so:/system/vendor/lib64/libDivxDrm.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmosal.so:/system/vendor/lib64/libmmosal.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmm-color-convertor.so:/system/vendor/lib64/libmm-color-convertor.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxAacDec.so:/system/vendor/lib64/libOmxAacDec.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:/system/vendor/lib64/libOmxAmrwbplusDec.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxWmaDec.so:/system/vendor/lib64/libOmxWmaDec.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libSHIMDivxDrm.so:/system/vendor/lib64/libSHIMDivxDrm.so
