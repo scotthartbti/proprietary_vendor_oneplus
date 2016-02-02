@@ -85,8 +85,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
         vendor/oneplus/oneplus2/proprietary/lib/hw/camera.msm8994.so:/system/lib/hw/camera.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/hw/lights.msm8994.so:/system/lib/hw/lights.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:system/vendor/lib/hw/gatekeeper.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/keystore.msm8994.so:system/vendor/lib/hw/keystore.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib/hw/sensors.msm8994.so:/system/lib/hw/sensors.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
@@ -95,6 +94,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/oneplus/oneplus2/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/lights.msm8994.so:/system/lib64/hw/lights.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.msm8994.so:/system/lib64/hw/sensors.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/libparam.so:/system/lib64/libparam.so \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/slim_ap_daemon:/system/vendor/bin/slim_ap_daemon \
@@ -110,8 +110,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/sound_trigger.primary.msm8994.so:/system/vendor/lib/hw/sound_trigger.primary.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:/system/vendor/lib/hw/activity_recognition.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/sensors.msm8994.so:/system/vendor/lib/hw/sensors.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/sensors.oem.so:/system/vendor/lib/hw/sensors.oem.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:system/vendor/lib/hw/gatekeeper.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/keystore.msm8994.so:system/vendor/lib/hw/keystore.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
@@ -315,6 +315,9 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libsmemlog.so:/system/vendor/lib/libsmemlog.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor1.so:/system/vendor/lib/libsensor1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor_reg.so:/system/vendor/lib/libsensor_reg.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor_thresh.so:/system/vendor/lib/libsensor_thresh.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor_user_cal.so:/system/vendor/lib/libsensor_user_cal.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/sensors.ssc.so:/system/vendor/lib/sensors.ssc.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libasn1cper.so:/system/vendor/lib/libasn1cper.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libasn1crt.so:/system/vendor/lib/libasn1crt.so \
@@ -337,8 +340,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:/system/vendor/lib64/egl/libq3dtools_adreno.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libq3dtools_esx.so:/system/vendor/lib64/egl/libq3dtools_esx.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/activity_recognition.msm8994.so:/system/vendor/lib64/hw/activity_recognition.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/sensors.msm8994.so:/system/vendor/lib64/hw/sensors.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/sensors.oem.so:/system/vendor/lib64/hw/sensors.oem.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/flp.default.so:/system/vendor/lib64/hw/flp.default.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/gatekeeper.msm8994.so:system/vendor/lib64/hw/gatekeeper.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/keystore.msm8994.so:system/vendor/lib64/hw/keystore.msm8994.so \
@@ -419,6 +420,9 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-radioconfig.so:/system/vendor/lib64/libril-qc-radioconfig.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor1.so:/system/vendor/lib64/libsensor1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor_reg.so:/system/vendor/lib64/libsensor_reg.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor_thresh.so:/system/vendor/lib64/libsensor_thresh.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor_user_cal.so:/system/vendor/lib64/libsensor_user_cal.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/sensors.ssc.so:/system/vendor/lib64/sensors.ssc.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libthermalclient.so:/system/vendor/lib64/libthermalclient.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libthermalioctl.so:/system/vendor/lib64/libthermalioctl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libasn1cper.so:/system/vendor/lib64/libasn1cper.so \
