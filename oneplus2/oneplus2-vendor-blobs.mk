@@ -401,6 +401,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsystem_health_mon.so:/system/vendor/lib64/libsystem_health_mon.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libxml.so:/system/vendor/lib64/libxml.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/liblqe.so:/system/vendor/lib64/liblqe.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-radioconfig.so:/system/vendor/lib64/libril-qc-radioconfig.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor1.so:/system/vendor/lib64/libsensor1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor_reg.so:/system/vendor/lib64/libsensor_reg.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libthermalclient.so:/system/vendor/lib64/libthermalclient.so \
