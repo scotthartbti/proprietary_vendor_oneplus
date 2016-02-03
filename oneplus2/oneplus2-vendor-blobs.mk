@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/oneplus/oneplus2/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
         vendor/oneplus/oneplus2/proprietary/bin/btnvtool:/system/bin/btnvtool \
+        vendor/oneplus/oneplus2/proprietary/bin/fingerprintd:/system/bin/fingerprintd \
         vendor/oneplus/oneplus2/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/oneplus/oneplus2/proprietary/bin/wcnss_filter:/system/bin/wcnss_filter \
         vendor/oneplus/oneplus2/proprietary/bin/laser_init:/system/bin/laser_init \
@@ -46,11 +47,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/location-mq:/system/bin/location-mq \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/a420_pfp.fw:/system/etc/firmware/a420_pfp.fw \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/a420_pm4.fw:/system/etc/firmware/a420_pm4.fw \
-        vendor/oneplus/oneplus2/proprietary/etc/firmware/alipay.b00:/system/etc/firmware/alipay.b00 \
-        vendor/oneplus/oneplus2/proprietary/etc/firmware/alipay.b01:/system/etc/firmware/alipay.b01 \
-        vendor/oneplus/oneplus2/proprietary/etc/firmware/alipay.b02:/system/etc/firmware/alipay.b02 \
-        vendor/oneplus/oneplus2/proprietary/etc/firmware/alipay.b03:/system/etc/firmware/alipay.b03 \
-        vendor/oneplus/oneplus2/proprietary/etc/firmware/alipay.mdt:/system/etc/firmware/alipay.mdt \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:/system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -86,8 +82,10 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S1302.img:/system/etc/firmware/tp/14049/14049_FW_S1302.img \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
         vendor/oneplus/oneplus2/proprietary/lib/hw/camera.msm8994.so:/system/lib/hw/camera.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib/hw/fingerprint.msm8994.so:/system/lib/hw/fingerprint.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/hw/lights.msm8994.so:/system/lib/hw/lights.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/hw/sensors.msm8994.so:/system/lib/hw/sensors.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib/libcom_fingerprints_service.so:/system/lib/libcom_fingerprints_service.so \
         vendor/oneplus/oneplus2/proprietary/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
@@ -95,9 +93,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/lib/libopcamerahw_interface.so:/system/lib/libopcamerahw_interface.so \
         vendor/oneplus/oneplus2/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/oneplus/oneplus2/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/hw/fingerprint.msm8994.so:/system/lib64/hw/fingerprint.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/lights.msm8994.so:/system/lib64/hw/lights.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.hal.tof.so:/system/lib64/hw/sensors.hal.tof.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.msm8994.so:/system/lib64/hw/sensors.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/libcom_fingerprints_service.so:/system/lib64/libcom_fingerprints_service.so \
         vendor/oneplus/oneplus2/proprietary/lib64/libparam.so:/system/lib64/libparam.so \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/slim_ap_daemon:/system/vendor/bin/slim_ap_daemon \
