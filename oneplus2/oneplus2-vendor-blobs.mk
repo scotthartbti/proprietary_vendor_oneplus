@@ -85,6 +85,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
         vendor/oneplus/oneplus2/proprietary/lib/hw/camera.msm8994.so:/system/lib/hw/camera.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/hw/lights.msm8994.so:/system/lib/hw/lights.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:system/vendor/lib/hw/gatekeeper.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/keystore.msm8994.so:system/vendor/lib/hw/keystore.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
@@ -328,6 +330,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/sensors.msm8994.so:/system/vendor/lib64/hw/sensors.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/sensors.oem.so:/system/vendor/lib64/hw/sensors.oem.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/flp.default.so:/system/vendor/lib64/hw/flp.default.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/gatekeeper.msm8994.so:system/vendor/lib64/hw/gatekeeper.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/keystore.msm8994.so:system/vendor/lib64/hw/keystore.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libadsprpc.so:/system/vendor/lib64/libadsprpc.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libacdb-fts.so:/system/vendor/lib64/libacdb-fts.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libacdbloader.so:/system/vendor/lib64/libacdbloader.so \
