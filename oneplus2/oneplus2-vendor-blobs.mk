@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/btnvtool:/system/bin/btnvtool \
         vendor/oneplus/oneplus2/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/oneplus/oneplus2/proprietary/bin/wcnss_filter:/system/bin/wcnss_filter \
+        vendor/oneplus/oneplus2/proprietary/bin/laser_init:/system/bin/laser_init \
         vendor/oneplus/oneplus2/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/oneplus/oneplus2/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/oneplus/oneplus2/proprietary/bin/qseecomd:/system/bin/qseecomd \
@@ -94,6 +95,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/oneplus/oneplus2/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/lights.msm8994.so:/system/lib64/hw/lights.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.hal.tof.so:/system/lib64/hw/sensors.hal.tof.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.msm8994.so:/system/lib64/hw/sensors.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/libparam.so:/system/lib64/libparam.so \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
