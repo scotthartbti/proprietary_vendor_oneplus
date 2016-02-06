@@ -319,6 +319,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmQSM.so:/system/vendor/lib/libmmQSM.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libconnctrl.so:/system/vendor/lib/libconnctrl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:/system/vendor/lib64/egl/eglSubDriverAndroid.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libEGL_adreno.so:/system/vendor/lib64/egl/libEGL_adreno.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:/system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -413,4 +414,5 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:/system/vendor/lib64/libOmxAmrwbplusDec.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxWmaDec.so:/system/vendor/lib64/libOmxWmaDec.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libSHIMDivxDrm.so:/system/vendor/lib64/libSHIMDivxDrm.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmQSM.so:/system/vendor/lib64/libmmQSM.so
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmQSM.so:/system/vendor/lib64/libmmQSM.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libconnctrl.so:/system/vendor/lib64/libconnctrl.so
