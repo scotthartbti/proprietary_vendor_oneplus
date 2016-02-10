@@ -433,6 +433,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libasn1cper.so:/system/vendor/lib64/libasn1cper.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libasn1crt.so:/system/vendor/lib64/libasn1crt.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libasn1crtx.so:/system/vendor/lib64/libasn1crtx.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/liblowi_wifihal.so:/system/vendor/lib64/liblowi_wifihal.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libgdtap.so:/system/vendor/lib64/libgdtap.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libDivxDrm.so:/system/vendor/lib64/libDivxDrm.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so \
