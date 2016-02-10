@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/oneplus/oneplus2/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/oneplus/oneplus2/proprietary/bin/qseecomd:/system/bin/qseecomd \
-        vendor/oneplus/oneplus2/proprietary/bin/qseecom_security_test:/system/bin/qseecom_security_test \
         vendor/oneplus/oneplus2/proprietary/bin/energy-awareness:/system/bin/energy-awareness \
         vendor/oneplus/oneplus2/proprietary/bin/msm_irqbalance:/system/bin/msm_irqbalance \
         vendor/oneplus/oneplus2/proprietary/bin/pm-proxy:/system/bin/pm-proxy \
@@ -291,6 +290,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libOmxWmaDec.so:/system/vendor/lib/libOmxWmaDec.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libSHIMDivxDrm.so:/system/vendor/lib/libSHIMDivxDrm.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libqti-at.so:/system/vendor/lib/libqti-at.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libqti-gt.so:/system/vendor/lib/libqti-gt.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
@@ -388,6 +388,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/librs_adreno.so:/system/vendor/lib64/librs_adreno.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/librs_adreno_sha1.so:/system/vendor/lib64/librs_adreno_sha1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libscale.so:/system/vendor/lib64/libscale.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqc-opt.so:/system/vendor/lib64/libqc-opt.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqti-at.so:/system/vendor/lib64/libqti-at.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqti-gt.so:/system/vendor/lib64/libqti-gt.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqti-perfd-client.so:/system/vendor/lib64/libqti-perfd-client.so \
