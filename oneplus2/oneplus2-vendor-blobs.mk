@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
+        vendor/oneplus/oneplus2/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
         vendor/oneplus/oneplus2/proprietary/bin/btnvtool:/system/bin/btnvtool \
         vendor/oneplus/oneplus2/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/oneplus/oneplus2/proprietary/bin/wcnss_filter:/system/bin/wcnss_filter \
