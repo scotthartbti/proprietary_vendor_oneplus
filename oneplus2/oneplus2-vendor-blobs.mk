@@ -444,4 +444,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxWmaDec.so:/system/vendor/lib64/libOmxWmaDec.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libSHIMDivxDrm.so:/system/vendor/lib64/libSHIMDivxDrm.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmQSM.so:/system/vendor/lib64/libmmQSM.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libconnctrl.so:/system/vendor/lib64/libconnctrl.so
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libconnctrl.so:/system/vendor/lib64/libconnctrl.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libTimeService.so:/system/vendor/lib64/libTimeService.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libTimeService.so:/system/vendor/lib/libTimeService.so

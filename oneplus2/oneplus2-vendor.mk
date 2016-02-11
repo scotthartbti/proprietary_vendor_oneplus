@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService
+    libtime_genoff
 
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
