@@ -391,6 +391,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor_thresh.so:/system/vendor/lib64/libsensor_thresh.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsensor_user_cal.so:/system/vendor/lib64/libsensor_user_cal.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/sensors.ssc.so:/system/vendor/lib64/sensors.ssc.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/oneplus/oneplus2/proprietary/vendor/bin/thermal-engine:/system/vendor/bin/thermal-engine \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libthermalclient.so:/system/vendor/lib64/libthermalclient.so \
