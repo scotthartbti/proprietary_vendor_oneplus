@@ -196,6 +196,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_ov5648.so:/system/vendor/lib/libmmcamera_ov5648.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_ov5648_eeprom.so:/system/vendor/lib/libmmcamera_ov5648_eeprom.so \
         vendor/oneplus/oneplus2/proprietary/bin/qseecomd:/system/bin/qseecomd \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libQSEEComAPI.so:/system/vendor/lib64/libQSEEComAPI.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdrmfs.so:/system/vendor/lib64/libdrmfs.so \
