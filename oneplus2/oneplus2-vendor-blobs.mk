@@ -202,6 +202,10 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdrmfs.so:/system/vendor/lib64/libdrmfs.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdrmtime.so:/system/vendor/lib64/libdrmtime.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/librpmb.so:/system/vendor/lib64/librpmb.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsecureui.so:/system/vendor/lib64/libsecureui.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libSecureUILib.so:/system/vendor/lib64/libSecureUILib.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsecureuisvc_jni.so:/system/vendor/lib64/libsecureuisvc_jni.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsecureui_svcsock.so:/system/vendor/lib64/libsecureui_svcsock.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libssd.so:/system/vendor/lib64/libssd.so \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.b00:/system/etc/firmware/fingerprints.b00 \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.b01:/system/etc/firmware/fingerprints.b01 \
