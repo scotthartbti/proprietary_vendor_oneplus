@@ -61,6 +61,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/lib/libopcamerahw_interface.so:/system/lib/libopcamerahw_interface.so \
         vendor/oneplus/oneplus2/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.hal.tof.so:/system/lib64/hw/sensors.hal.tof.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/libopcamera.so:/system/lib64/libopcamera.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/libopcameralib.so:/system/lib64/libopcameralib.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:/system/vendor/lib64/libmmcamera2_q3a_core.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:/system/vendor/lib64/libmmcamera2_sensor_debug.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:/system/vendor/lib64/libmmcamera2_stats_algorithm.so \
@@ -105,6 +107,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libois_rohm_bu63165gwl.so:/system/vendor/lib/libois_rohm_bu63165gwl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:/system/vendor/lib/libqomx_jpegenc_pipe.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libactuator_rohm_bu63165gwl.so:/system/vendor/lib/libactuator_rohm_bu63165gwl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libactuator_rohm_bu63165gwl_camcorder.so:/system/vendor/lib/libactuator_rohm_bu63165gwl_camcorder.so \
@@ -284,7 +287,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/a420_pm4.fw:/system/etc/firmware/a420_pm4.fw \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/keystore.msm8994.so:/system/vendor/lib64/hw/keystore.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/keystore.msm8994.so:/system/vendor/lib/hw/keystore.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/sound_trigger.primary.msm8994.so:/system/vendor/lib/hw/sound_trigger.primary.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libDivxDrm.so:/system/vendor/lib/libDivxDrm.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
