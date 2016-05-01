@@ -293,7 +293,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/venus.b04:/system/etc/firmware/venus.b04 \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/venus.mdt:/system/etc/firmware/venus.mdt \
-        vendor/oneplus/oneplus2/proprietary/bin/energy-awareness:/system/bin/energy-awareness \
         vendor/oneplus/oneplus2/proprietary/bin/msm_irqbalance:/system/bin/msm_irqbalance \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/perfd:/system/vendor/bin/perfd \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqc-opt.so:/system/vendor/lib64/libqc-opt.so \
