@@ -253,6 +253,10 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.b02:/system/etc/firmware/fingerprints.b02 \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.b03:/system/etc/firmware/fingerprints.b03 \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.mdt:/system/etc/firmware/fingerprints.mdt \
+        vendor/oneplus/oneplus2/proprietary/lib64/hw/fingerprint.msm8994.so:/system/lib64/hw/fingerprint.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/lib_fpc_tac_shared.so:/system/lib64/lib_fpc_tac_shared.so \
+        vendor/oneplus/oneplus2/proprietary/lib/hw/fingerprint.msm8994.so:/system/lib/hw/fingerprint.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib/lib_fpc_tac_shared.so:/system/lib/lib_fpc_tac_shared.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/gatekeeper.msm8994.so:/system/vendor/lib64/hw/gatekeeper.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:/system/vendor/lib/hw/gatekeeper.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/bin/loc_launcher:/system/bin/loc_launcher \
@@ -434,12 +438,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor_thresh.so:/system/vendor/lib/libsensor_thresh.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor_user_cal.so:/system/vendor/lib/libsensor_user_cal.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/sensors.ssc.so:/system/vendor/lib/sensors.ssc.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libchromaflash.so:/system/vendor/lib/libchromaflash.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:/system/vendor/lib/libmmcamera_chromaflash_lib.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:/system/vendor/lib/libmmcamera_optizoom_lib.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:/system/vendor/lib/libmmcamera_ubifocus_lib.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/liboptizoom.so:/system/vendor/lib/liboptizoom.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libubifocus.so:/system/vendor/lib/libubifocus.so \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/thermal-engine:/system/vendor/bin/thermal-engine \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libthermalclient.so:/system/vendor/lib64/libthermalclient.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libthermalioctl.so:/system/vendor/lib64/libthermalioctl.so \
