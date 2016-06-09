@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
+    libwpa_qmi_eap_proxy \
     libdiag \
     libdsutils \
     libidl \
