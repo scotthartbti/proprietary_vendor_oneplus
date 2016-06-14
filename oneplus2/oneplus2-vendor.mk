@@ -47,9 +47,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     CNEService \
-    dpmserviceapp
+    com.qti.dpmframework \
+    dpmapi
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
+    libthermalclient
 
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
