@@ -17,6 +17,8 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
     CNEService \
+    com.qualcomm.location \
+    dpmserviceapp \
     fastdormancy \
     ims \
     imssettings \
