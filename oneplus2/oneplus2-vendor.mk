@@ -47,8 +47,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     CNEService \
-    com.qti.dpmframework \
-    dpmapi
+    dpmserviceapp
 
 PRODUCT_PACKAGES += \
     libthermalclient
