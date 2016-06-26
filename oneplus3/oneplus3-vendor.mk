@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     fastdormancy \
     ims \
     imssettings \
+    QtiTelephonyService \
     QtiTetherService \
     shutdownlistener \
     TimeService
