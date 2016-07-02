@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastdormancy \
     QtiTelephonyService \
+    QtiTetherService \
     qcnvitems \
     qcrilhook \
     qcrilmsgtunnel \
