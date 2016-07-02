@@ -58,4 +58,7 @@ PRODUCT_PACKAGES += \
     colorservice \
     pp_calib_data_jd35695_1080p_cmd_mode_dsi_panel.xml
 
+PRODUCT_PACKAGES += \
+    com.qualcomm.location
+
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
