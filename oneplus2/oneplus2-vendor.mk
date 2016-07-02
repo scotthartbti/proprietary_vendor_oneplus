@@ -54,4 +54,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libthermalclient
 
+PRODUCT_PACKAGES += \
+    colorservice \
+    pp_calib_data_jd35695_1080p_cmd_mode_dsi_panel.xml
+
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)

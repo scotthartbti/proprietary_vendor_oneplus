@@ -380,6 +380,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libperipheral_client.so:/system/vendor/lib64/libperipheral_client.so \
         vendor/oneplus/oneplus2/proprietary/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
+        vendor/oneplus/oneplus2/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:/system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+        vendor/oneplus/oneplus2/proprietary/framework/com.qti.snapdragon.sdk.display.jar:/system/framework/com.qti.snapdragon.sdk.display.jar \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libdisp-aba.so:/system/vendor/lib/libdisp-aba.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmm-abl.so:/system/vendor/lib/libmm-abl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmm-abl-oem.so:/system/vendor/lib/libmm-abl-oem.so \
