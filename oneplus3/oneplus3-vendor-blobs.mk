@@ -496,7 +496,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libqmi_common_so.so:/system/vendor/lib/libqmi_common_so.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libqmi_csi.so:/system/vendor/lib/libqmi_csi.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libqmi_encdec.so:/system/vendor/lib/libqmi_encdec.so \
-        vendor/oneplus/oneplus3/proprietary/vendor/lib/libqmiservices.so:/system/vendor/lib/libqmiservices.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libqti-wl.so:/system/vendor/lib/libqti-wl.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libquipc_os_api.so:/system/vendor/lib/libquipc_os_api.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libsmemlog.so:/system/vendor/lib/libsmemlog.so \
@@ -516,7 +515,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqmi_common_so.so:/system/vendor/lib64/libqmi_common_so.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqmi_csi.so:/system/vendor/lib64/libqmi_csi.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqmi_encdec.so:/system/vendor/lib64/libqmi_encdec.so \
-        vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqmiservices.so:/system/vendor/lib64/libqmiservices.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqti-wl.so:/system/vendor/lib64/libqti-wl.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libquipc_os_api.so:/system/vendor/lib64/libquipc_os_api.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libsmemlog.so:/system/vendor/lib64/libsmemlog.so \
@@ -540,11 +538,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libmdmdetect.so:/system/vendor/lib64/libmdmdetect.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqcmaputils.so:/system/vendor/lib64/libqcmaputils.so \
+        vendor/oneplus/oneplus3/proprietary/vendor/lib64/libsystem_health_mon.so:/system/vendor/lib64/libsystem_health_mon.so \
+        vendor/oneplus/oneplus3/proprietary/vendor/qcril.db:/system/vendor/qcril.db \
+        vendor/oneplus/oneplus3/proprietary/vendor/lib/libqmiservices.so:/system/vendor/lib/libqmiservices.so \
+        vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqmiservices.so:/system/vendor/lib64/libqmiservices.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libril-qc-qmi-1.so:/system/vendor/lib64/libril-qc-qmi-1.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libril-qc-radioconfig.so:/system/vendor/lib64/libril-qc-radioconfig.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
-        vendor/oneplus/oneplus3/proprietary/vendor/lib64/libsystem_health_mon.so:/system/vendor/lib64/libsystem_health_mon.so \
-        vendor/oneplus/oneplus3/proprietary/vendor/qcril.db:/system/vendor/qcril.db \
         vendor/oneplus/oneplus3/proprietary/bin/ims_rtp_daemon:/system/bin/ims_rtp_daemon \
         vendor/oneplus/oneplus3/proprietary/bin/imscmservice:/system/bin/imscmservice \
         vendor/oneplus/oneplus3/proprietary/bin/imsdatadaemon:/system/bin/imsdatadaemon \
