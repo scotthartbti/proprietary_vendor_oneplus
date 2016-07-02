@@ -431,10 +431,10 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqcmaputils.so:/system/vendor/lib64/libqcmaputils.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/librcc.so:/system/vendor/lib64/librcc.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-qmi-1.so:/system/vendor/lib64/libril-qc-qmi-1.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-radioconfig.so:/system/vendor/lib64/libril-qc-radioconfig.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsystem_health_mon.so:/system/vendor/lib64/libsystem_health_mon.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-qmi-1.so:/system/vendor/lib64/libril-qc-qmi-1.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-radioconfig.so:/system/vendor/lib64/libril-qc-radioconfig.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
         vendor/oneplus/oneplus2/proprietary/bin/sensors.qcom:/system/bin/sensors.qcom \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S1302.img:/system/etc/firmware/tp/14049/14049_FW_S1302.img \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
