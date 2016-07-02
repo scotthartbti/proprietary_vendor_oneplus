@@ -18,6 +18,8 @@
 PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
+    datastatusnotification \
+    embms \
     dpmserviceapp \
     fastdormancy \
     ims \
