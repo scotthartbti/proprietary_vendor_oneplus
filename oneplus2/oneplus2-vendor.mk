@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qcrilmsgtunnel \
     libmdmdetect \
-    libril \
     shutdownlistener
 
 PRODUCT_PACKAGES += \
