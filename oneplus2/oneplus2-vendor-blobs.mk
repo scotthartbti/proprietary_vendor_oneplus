@@ -432,37 +432,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/liblqe.so:/system/vendor/lib64/liblqe.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqcmaputils.so:/system/vendor/lib64/libqcmaputils.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/librcc.so:/system/vendor/lib64/librcc.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsystem_health_mon.so:/system/vendor/lib64/libsystem_health_mon.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-qmi-1.so:/system/vendor/lib64/libril-qc-qmi-1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qc-radioconfig.so:/system/vendor/lib64/libril-qc-radioconfig.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
-        vendor/oneplus/oneplus2/proprietary/bin/ims_rtp_daemon:/system/bin/ims_rtp_daemon \
-        vendor/oneplus/oneplus2/proprietary/bin/imscmservice:/system/bin/imscmservice \
-        vendor/oneplus/oneplus2/proprietary/bin/imsdatadaemon:/system/bin/imsdatadaemon \
-        vendor/oneplus/oneplus2/proprietary/bin/imsqmidaemon:/system/bin/imsqmidaemon \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-dplmedia.so:/system/vendor/lib64/lib-dplmedia.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-ims-rcscmjni.so:/system/vendor/lib64/lib-ims-rcscmjni.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsSDP.so:/system/vendor/lib64/lib-imsSDP.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imscamera.so:/system/vendor/lib64/lib-imscamera.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsdpl.so:/system/vendor/lib64/lib-imsdpl.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsqimf.so:/system/vendor/lib64/lib-imsqimf.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsrcs.so:/system/vendor/lib64/lib-imsrcs.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsrcscm.so:/system/vendor/lib64/lib-imsrcscm.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsrcscmclient.so:/system/vendor/lib64/lib-imsrcscmclient.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsrcscmservice.so:/system/vendor/lib64/lib-imsrcscmservice.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imss.so:/system/vendor/lib64/lib-imss.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsvt.so:/system/vendor/lib64/lib-imsvt.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-imsxml.so:/system/vendor/lib64/lib-imsxml.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-rcsimssjni.so:/system/vendor/lib64/lib-rcsimssjni.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-rcsjni.so:/system/vendor/lib64/lib-rcsjni.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-rtpcommon.so:/system/vendor/lib64/lib-rtpcommon.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-rtpcore.so:/system/vendor/lib64/lib-rtpcore.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:/system/vendor/lib64/lib-rtpdaemoninterface.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-rtpsl.so:/system/vendor/lib64/lib-rtpsl.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libimscamera_jni.so:/system/vendor/lib64/libimscamera_jni.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libimsmedia_jni.so:/system/vendor/lib64/libimsmedia_jni.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/librcc.so:/system/vendor/lib64/librcc.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libvoice-svc.so:/system/vendor/lib64/libvoice-svc.so \
         vendor/oneplus/oneplus2/proprietary/bin/sensors.qcom:/system/bin/sensors.qcom \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S1302.img:/system/etc/firmware/tp/14049/14049_FW_S1302.img \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \

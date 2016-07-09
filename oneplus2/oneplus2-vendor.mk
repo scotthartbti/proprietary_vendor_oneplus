@@ -61,8 +61,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.qualcomm.location
 
-PRODUCT_PACKAGES += \
-    ims \
-    imssettings
-
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
