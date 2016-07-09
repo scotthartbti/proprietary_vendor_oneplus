@@ -446,6 +446,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/vendor/firmware/libpn548ad_fw.so:/system/vendor/firmware/libpn548ad_fw.so \
         vendor/oneplus/oneplus3/proprietary/bin/energy-awareness:/system/bin/energy-awareness \
         vendor/oneplus/oneplus3/proprietary/bin/iop:/system/bin/iop \
+        vendor/oneplus/oneplus3/proprietary/lib/libqti-iop.so:/system/lib/libqti-iop.so \
         vendor/oneplus/oneplus3/proprietary/lib64/libqti-iop.so:/system/lib64/libqti-iop.so \
         vendor/oneplus/oneplus3/proprietary/vendor/bin/perfd:/system/vendor/bin/perfd \
         vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile0.conf:/system/vendor/etc/perf-profile0.conf \
