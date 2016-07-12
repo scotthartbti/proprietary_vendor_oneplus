@@ -368,7 +368,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/iop:/system/bin/iop \
         vendor/oneplus/oneplus2/proprietary/bin/msm_irqbalance:/system/bin/msm_irqbalance \
         vendor/oneplus/oneplus2/proprietary/lib64/libqti-iop.so:/system/lib64/libqti-iop.so \
-        vendor/oneplus/oneplus2/proprietary/lib/libqti-iop.so:/system/lib/libqti-iop.so \
         vendor/oneplus/oneplus2/proprietary/vendor/bin/perfd:/system/vendor/bin/perfd \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libqti-iop-client.so:/system/vendor/lib/libqti-iop-client.so \
