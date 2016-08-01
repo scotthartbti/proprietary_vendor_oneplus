@@ -308,9 +308,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libllvm-glnext.so:/system/vendor/lib/libllvm-glnext.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmQSM.so:/system/vendor/lib/libmmQSM.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libscale.so:/system/vendor/lib/libscale.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libsd_sdk_display.so:/system/vendor/lib/libsd_sdk_display.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:/system/vendor/lib64/egl/eglSubDriverAndroid.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libEGL_adreno.so:/system/vendor/lib64/egl/libEGL_adreno.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:/system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -329,9 +331,12 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libgsl.so:/system/vendor/lib64/libgsl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libllvm-glnext.so:/system/vendor/lib64/libllvm-glnext.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libllvm-qcom.so:/system/vendor/lib64/libllvm-qcom.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmQSM.so:/system/vendor/lib64/libmmQSM.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/librs_adreno.so:/system/vendor/lib64/librs_adreno.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/librs_adreno_sha1.so:/system/vendor/lib64/librs_adreno_sha1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libscale.so:/system/vendor/lib64/libscale.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libsd_sdk_display.so:/system/vendor/lib64/libsd_sdk_display.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libuiblur.so:/system/vendor/lib64/libuiblur.so \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/a420_pfp.fw:/system/etc/firmware/a420_pfp.fw \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/a420_pm4.fw:/system/etc/firmware/a420_pm4.fw \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/keystore.msm8994.so:/system/vendor/lib/hw/keystore.msm8994.so \
